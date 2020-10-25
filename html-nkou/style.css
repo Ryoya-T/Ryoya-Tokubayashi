@@ -134,7 +134,6 @@ button {
 	max-width: 1080px;
 	margin: 0 auto 80px;
 	display: flex;
-	justify-content: space-between;	
 }
 #plus-margin{
 	margin-top: 25px;
@@ -306,15 +305,22 @@ header{
 	background-color: #ffffff;
 	opacity: 0.7;
 }
+.whidth-tag{
+	width: 65%;
+	display: flex;
+	justify-content: space-between;	
+
+}
 .hidden-menu-img-1{
 	display: flex;
 	justify-content: space-between;
 }
 .hidden-menu-img-2{
 	display: flex;
+	font-size: 12px;
 }
 .hidden-menu img{
-	height: 45px;
+	height: 35px;
 }
 /*Top About*/
 .top-about{
