@@ -138,10 +138,10 @@ button {
 #plus-margin{
 	margin-top: 25px;
 }
-#plus-margin-s{
+.plus-margin-s{
 	margin-top: 10px;
 }
-#gray{
+.gray{
 	background-color: #eeeeee;
 }
 #bottom-padding{
@@ -641,7 +641,7 @@ header{
 	margin-bottom: 30px;
 }
 .program-title p{
-	font-weight: 450;
+	font-weight: 500;
 	font-size: 22px;
 }
 .program-content{
