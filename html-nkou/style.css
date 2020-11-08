@@ -614,6 +614,19 @@ header{
 	max-width: 1060px;
 	margin: 0 auto 100px;
 }
+.program-h{
+	display: block;
+	max-width: 1060px;
+	margin: 0 auto 50px;
+	border-bottom: solid;
+	border-color: #dddddd;
+	border-width: 0.8px;
+}
+.program-b{
+	display: block;
+	max-width: 1060px;
+	margin: 0 auto 50px;
+}
 .program img{
 	width: 70%;
 }
@@ -929,6 +942,8 @@ header{
 	color: #ffffff;
 	display: flex;
 	justify-content: space-between;
+	height: 35px;
+	padding: 10px;
 }
 .black p{
 	display: inline-block;
