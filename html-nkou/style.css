@@ -157,6 +157,21 @@ button {
 .under-line li:hover,.under-line p:hover{
 	text-decoration: underline;
 }
+.hov-half:hover{
+	opacity: 0.6;
+}
+.hov-gray:hover{
+	background-color: #bbbbbb;
+}
+.hov-blue:hover{
+	background-color: #0000cc;
+	color: #ffffff;
+}
+.hov-black:hover{
+	background-color: #000000;
+	color: #ffffff;	
+}
+
 /*Header Menu*/
 header{
 	background-color: #ffffff;
@@ -694,7 +709,7 @@ header{
 	margin-bottom: 30px;
 }
 .program-title p{
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 22px;
 }
 .program-content{
@@ -843,6 +858,9 @@ header{
 	display: inline-block;
 	content: '>';
 	margin-left: 15px;
+}
+#add-about-block:hover{
+	text-decoration: underline;
 }
 .add-about-blog{
 	display: flex;
@@ -1012,14 +1030,19 @@ header{
 	height: 35px;
 	padding: 10px;
 }
-.black p{
-	display: inline-block;
-}
 .program-nomargin{
 	display: block;
-	max-width: 1060px;
+	min-width: 1060px;
 	margin: 10px auto;
+	color: #bbbbbb;
 }
 .program-nomargin p{
 	display: inline-block;
+	vertical-align: top;
+	word-wrap: normal;
+	width: 49%;
+	font-size: 11px;
+}
+#right{
+	text-align: right;
 }
