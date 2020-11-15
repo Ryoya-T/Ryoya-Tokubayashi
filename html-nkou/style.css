@@ -876,7 +876,12 @@ header{
 }
 /*fotter*/
 .footer-top{
-	display: block;
+	display: flex;
+	align-items: center;
+}
+.footer-top ul{
+	display: inline-block;
+	width: 80%;
 }
 .footer-top li{
 	display: inline-block;
@@ -884,6 +889,11 @@ header{
 	color: #000066;
 	font-size: 18px;
 	font-weight: 600;
+}
+.footer-top img{
+	display: inline-block;
+	width: 70px;
+	height: 70px;
 }
 .footer-top-before::before{
 	content: '|';
