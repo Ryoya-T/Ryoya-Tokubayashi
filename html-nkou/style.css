@@ -135,7 +135,11 @@ button {
 	margin: 0 auto 80px;
 	display: flex;
 }
-#plus-margin{
+.whidth-max-n{
+	max-width: 1080px;
+	margin: 15px auto;
+}
+.plus-margin{
 	margin-top: 25px;
 }
 .plus-margin-s{
@@ -150,6 +154,9 @@ button {
 #margin-right-no{
 	margin: 
 }
+.under-line li:hover,p:hover{
+	text-decoration: underline;
+}
 /*Header Menu*/
 header{
 	background-color: #ffffff;
@@ -159,7 +166,6 @@ header{
 .head-line{
 	display: flex;
 	align-items: flex-start;
-	background-color: #f7f7f7;
 	max-width: 1060px;
 	margin: 0 auto;
 }
@@ -193,7 +199,7 @@ header{
 /*Coll Tab*/
 .coll-tab{
 	display: flex;
-	padding: 20px 10px;
+	padding: 20px 10px;	
 }
 .coll-tab img{
 	height: 50px;
@@ -223,6 +229,7 @@ header{
 }
 /*Top Menu*/
 .top-menu-block{
+	width: 34%;
 	display: flex;
 	float: right;
 	margin-left: auto;
@@ -258,8 +265,8 @@ header{
 }
 .top-menu-list{
 	display: flex;
-	width: 100%;
-	margin: 15px;
+	width: 65%;
+	margin: 10px;
 }
 .top-menu-list li{
 	display: inline-block;
@@ -270,7 +277,7 @@ header{
 }
 /*Tab Menu*/
 .tab-menu-list{
-	padding: 15px;
+	padding: 5px;
 	background-color: #000033;
 	color: #ffffff;
 }
@@ -293,6 +300,12 @@ header{
 .tab-menu-list a:hover{
 	background-color: #ffffff;
 	color: #000033;
+}
+.top-menu-list li::after{
+	display: inline-block;
+	content: '';
+	border-right: solid;
+	border-color: #eeeeee;
 }
 /*Hidden Menu*/
 .hidden-menu{
@@ -357,7 +370,6 @@ header{
  	border-radius: 2px;
 }
 .top-about-line{
-	padding: 20px 10px;
 	border-bottom: solid;
 	border-width: 1px;
 	border-color: #cccccc;
@@ -734,6 +746,7 @@ header{
 .add-about{
 	background-color: #000000;
 	margin-bottom: 80px;
+	padding-top:30px;
 	color: #ffffff;
 }
 .add-about-content{
@@ -892,7 +905,6 @@ header{
 .footer-list span{
 	font-size: 12px;
 	font-weight: 400;
-	position: relative;
 }
 .footer-list li{
 	font-size: 14px;
@@ -900,6 +912,7 @@ header{
 }
 .footer-list-sepa{
 	margin: 5px 0 10px;
+	padding-top: 5px;
 	border-top: solid;
 	border-width: 0.5px;
 	border-color: #cccccc;
