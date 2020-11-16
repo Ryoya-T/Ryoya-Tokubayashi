@@ -624,9 +624,9 @@ header{
 .basic-program-title h3::before{
 	content: '';
 	position: relative;
-	left: 450px;
- 	bottom: -30px;
- 	display: inline-block;
+	left: 620px;
+	bottom: -65px;
+ 	display:block;
  	width: 180px;
  	height: 0.8px;
  	transform: translate(-50%);
